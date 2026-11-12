@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Projects by Irfan Khan: Python/Django E-commerce Website and News Website with management dashboards.">
+    <meta name="author" content="Irfan Khan">
+
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23c24132'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='28' font-weight='700'%3EIK%3C/text%3E%3C/svg%3E">
+
+    <title>Projects | Irfan Khan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="site-header" id="site-header">
+        <div class="container navbar">
+            <a href="index.html" class="logo" aria-label="Irfan Khan Home">
+                <span class="logo-mark" aria-hidden="true">IK</span>
+                <span class="logo-text">Irfan <span>Khan</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Toggle navigation menu"
+                aria-expanded="false" aria-controls="nav-menu">
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu" aria-label="Primary Navigation">
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About Me</a>
+                    <a href="skills.html" class="nav-link">Skills</a>
+                    <a href="projects.html" class="nav-link active" aria-current="page">Projects</a>
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme"
+                        aria-pressed="false">
+                        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </button>
+
+                    <a href="contact.html" class="btn btn-primary btn-sm">
+                        Contact Me
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="availability-badge">
+                        <span class="availability-dot" aria-hidden="true"></span>
+                        Project Showcase
+                    </div>
+
+                    <span class="hero-kicker">Irfan Khan &middot; Portfolio</span>
+
+                    <h1 class="hero-title">
+                        Practical <span class="accent-word">Web Projects</span> &amp; Dashboards.
+                    </h1>
+
+                    <p class="hero-description">
+                        Explore my existing Python/Django projects—an E-commerce Website and a News Website—both
+                        built with dedicated management dashboards. Screenshots and live/source links can be updated
+                        directly.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#project-gallery" class="btn btn-primary">Explore Projects</a>
+                        <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+
+                <aside class="profile-card" aria-label="Projects Summary">
+                    <div class="profile-top">
+                        <span>Current Showcase</span>
+                        <span class="profile-badge">2 Projects</span>
+                    </div>
+
+                    <div class="profile-rows">
+                        <div class="profile-row">
+                            <span class="profile-row-label">01 &middot; E-commerce Website</span>
+                            <p class="profile-row-value">Admin/dashboard login, product management, adding &amp;
+                                removing products, order management, dashboard functionality</p>
+                        </div>
+
+                        <div class="profile-row">
+                            <span class="profile-row-label">02 &middot; News Website</span>
+                            <p class="profile-row-value">Dedicated dashboard for managing news website content</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Project Gallery -->
+        <section class="section section-surface" id="project-gallery">
+            <div class="container">
+                <div class="section-header" data-reveal>
+                    <div class="section-header-copy">
+                        <span class="eyebrow">01 / Selected Work</span>
+                        <h2 class="section-title">Featured <span>Projects.</span></h2>
+                        <p class="section-lead">
+                            Filter by category below. Each card includes screenshot slots and Live Demo / Source Code
+                            buttons ready for final URLs.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Filters -->
+                <div class="project-filters" role="group" aria-label="Filter projects by category">
+                    <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">
+                        All Projects (2)
+                    </button>
+                    <button class="filter-btn" type="button" data-filter="ecommerce" aria-pressed="false">
+                        E-Commerce
+                    </button>
+                    <button class="filter-btn" type="button" data-filter="news" aria-pressed="false">
+                        News &amp; Content
+                    </button>
+                    <button class="filter-btn" type="button" data-filter="python" aria-pressed="false">
+                        Python / Django
+                    </button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: E-commerce Website -->
+                    <article class="project-card" data-category="ecommerce python" data-reveal>
+                        <div class="project-preview">
+                            <div class="browser-frame">
+                                <div class="browser-bar">
+                                    <div class="browser-dots" aria-hidden="true">
+                                        <span></span><span></span><span></span>
+                                    </div>
+                                    <span class="browser-label">ecommerce-website &middot; preview</span>
+                                </div>
+                                <div class="screenshot-slot">
+                                    <span class="screenshot-slot-badge">Project Image Placeholder</span>
+                                    <strong>E-commerce Website &amp; Admin Dashboard</strong>
+                                    <span>Place screenshot at <code>assets/images/projects/ecommerce-preview.png</code></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <div class="project-meta">
+                                <span class="project-type">Python / Django &middot; E-Commerce</span>
+                                <span class="project-index">01</span>
+                            </div>
+
+                            <h2 class="project-title">E-commerce Website</h2>
+
+                            <p class="project-summary">
+                                A Python/Django e-commerce web application built around a practical admin dashboard for
+                                managing storefront inventory and customer orders.
+                            </p>
+
+                            <div class="project-features">
+                                <span class="project-features-title">Key Features</span>
+                                <ul>
+                                    <li>Admin / dashboard login</li>
+                                    <li>Product management</li>
+                                    <li>Adding &amp; removing products</li>
+                                    <li>Order management</li>
+                                    <li>Dashboard functionality</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-stack" aria-label="Technologies used">
+                                <span>Python</span>
+                                <span>Django</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="#project-gallery" class="btn btn-primary btn-sm"
+                                    data-placeholder-notice="Live Demo placeholder: Add the deployed URL when available.">
+                                    Live Demo
+                                </a>
+                                <a href="#project-gallery" class="btn btn-secondary btn-sm"
+                                    data-placeholder-notice="Source Code placeholder: Add the GitHub repository URL when ready.">
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: News Website -->
+                    <article class="project-card" data-category="news python" data-reveal>
+                        <div class="project-preview">
+                            <div class="browser-frame">
+                                <div class="browser-bar">
+                                    <div class="browser-dots" aria-hidden="true">
+                                        <span></span><span></span><span></span>
+                                    </div>
+                                    <span class="browser-label">news-website &middot; preview</span>
+                                </div>
+                                <div class="screenshot-slot">
+                                    <span class="screenshot-slot-badge">Project Image Placeholder</span>
+                                    <strong>News Website &amp; Content Dashboard</strong>
+                                    <span>Place screenshot at <code>assets/images/projects/news-preview.png</code></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <div class="project-meta">
+                                <span class="project-type">Python / Django &middot; Content Management</span>
+                                <span class="project-index">02</span>
+                            </div>
+
+                            <h2 class="project-title">News Website</h2>
+
+                            <p class="project-summary">
+                                A Python/Django news website equipped with a dedicated dashboard for managing news
+                                website content and publishing updates cleanly.
+                            </p>
+
+                            <div class="project-features">
+                                <span class="project-features-title">Key Features</span>
+                                <ul>
+                                    <li>Dashboard for news content</li>
+                                    <li>Structured article management</li>
+                                    <li>Clean reader presentation</li>
+                                    <li>Responsive layout</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-stack" aria-label="Technologies used">
+                                <span>Python</span>
+                                <span>Django</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="#project-gallery" class="btn btn-primary btn-sm"
+                                    data-placeholder-notice="Live Demo placeholder: Add the deployed URL when available.">
+                                    Live Demo
+                                </a>
+                                <a href="#project-gallery" class="btn btn-secondary btn-sm"
+                                    data-placeholder-notice="Source Code placeholder: Add the GitHub repository URL when ready.">
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Empty State -->
+                <div class="project-empty" id="project-empty" hidden>
+                    <h3>No projects match this filter.</h3>
+                    <p>Select "All Projects" to view all available work.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="section">
+            <div class="container">
+                <div class="cta-banner" data-reveal>
+                    <div class="cta-banner-copy">
+                        <span class="eyebrow">02 / Next Step</span>
+                        <h3>Would You Like a Walkthrough of These Projects?</h3>
+                        <p>
+                            I am happy to demonstrate the dashboards and discuss my development approach in an
+                            interview.
+                        </p>
+                    </div>
+                    <div class="cta-banner-actions">
+                        <a href="contact.html" class="btn btn-primary">Contact Me</a>
+                        <a href="assets/resume/Irfan-Khan-Resume.pdf" class="btn btn-secondary" data-resume-download
+                            download>Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a href="index.html" class="logo" aria-label="Irfan Khan Home">
+                <span class="logo-mark" aria-hidden="true">IK</span>
+                <span class="logo-text">Irfan <span>Khan</span></span>
+            </a>
+
+            <nav class="footer-nav" aria-label="Footer Navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <p class="footer-copy">
+                &copy; 2026 Irfan Khan. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
